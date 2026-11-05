@@ -1,0 +1,18 @@
+# Core Google GenAI SDK
+google-genai
+
+# Environment Configuration
+python-dotenv
+
+# Local Embeddings & Vector Store
+sentence-transformers
+faiss-cpu
+
+# Multi-Format Document Ingestion
+pypdf
+pandas
+openpyxl
+python-pptx
+
+# Web UI
+gradio

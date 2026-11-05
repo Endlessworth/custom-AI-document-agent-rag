@@ -1,0 +1,41 @@
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+!.env.example
+
+# Private configuration and credential files
+.env gemini model.txt
+.env key.txt
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Generated vector database & document index data
+data/
+*.index
+*.faiss
+*.pkl
+
+# Temporary backups and repair files
+*.bak
+*.before_repair
+generator_broken.py.py
+generator_v1_backup.py
+README_before_final_update_20261105.md
+
+# IDE and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
